@@ -1,0 +1,15 @@
+C:\Users\gabri\dodev\exercicioLojaOnline\obj\Debug\net6.0\exercicioLojaOnline.csproj.AssemblyReference.cache
+C:\Users\gabri\dodev\exercicioLojaOnline\obj\Debug\net6.0\exercicioLojaOnline.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\dodev\exercicioLojaOnline\obj\Debug\net6.0\exercicioLojaOnline.AssemblyInfoInputs.cache
+C:\Users\gabri\dodev\exercicioLojaOnline\obj\Debug\net6.0\exercicioLojaOnline.AssemblyInfo.cs
+C:\Users\gabri\dodev\exercicioLojaOnline\obj\Debug\net6.0\exercicioLojaOnline.csproj.CoreCompileInputs.cache
+C:\Users\gabri\dodev\exercicioLojaOnline\bin\Debug\net6.0\exercicioLojaOnline.exe
+C:\Users\gabri\dodev\exercicioLojaOnline\bin\Debug\net6.0\exercicioLojaOnline.deps.json
+C:\Users\gabri\dodev\exercicioLojaOnline\bin\Debug\net6.0\exercicioLojaOnline.runtimeconfig.json
+C:\Users\gabri\dodev\exercicioLojaOnline\bin\Debug\net6.0\exercicioLojaOnline.dll
+C:\Users\gabri\dodev\exercicioLojaOnline\bin\Debug\net6.0\exercicioLojaOnline.pdb
+C:\Users\gabri\dodev\exercicioLojaOnline\obj\Debug\net6.0\exercicioLojaOnline.dll
+C:\Users\gabri\dodev\exercicioLojaOnline\obj\Debug\net6.0\refint\exercicioLojaOnline.dll
+C:\Users\gabri\dodev\exercicioLojaOnline\obj\Debug\net6.0\exercicioLojaOnline.pdb
+C:\Users\gabri\dodev\exercicioLojaOnline\obj\Debug\net6.0\exercicioLojaOnline.genruntimeconfig.cache
+C:\Users\gabri\dodev\exercicioLojaOnline\obj\Debug\net6.0\ref\exercicioLojaOnline.dll
