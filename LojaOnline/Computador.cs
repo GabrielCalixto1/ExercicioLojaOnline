@@ -4,7 +4,7 @@ namespace exercicioLojaOnline.LojaOnline
     {
        
 
-        public Computador() : base(2000, 10, "String")
+        public Computador() : base(2000, 10, "Dell")
         {
 
         }

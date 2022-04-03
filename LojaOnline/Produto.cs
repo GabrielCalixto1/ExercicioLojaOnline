@@ -13,10 +13,10 @@ namespace exercicioLojaOnline.LojaOnline
             Marca = marca;
         }
 
-        public void ComprouUmItem();
+       /* public void ComprouUmItem();
         {
             QuantidadeDisponivel--;
-        }
+        }*/
 
     }
 }

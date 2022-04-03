@@ -26,14 +26,75 @@ namespace exercicioLojaOnline.LojaOnline
 
             Console.WriteLine("Digite seu nome: ");
             string nome = Console.ReadLine();
-            Console.WriteLine("Digite seu nome: ");
+            Console.WriteLine("Digite seu Email: ");
             string Email = Console.ReadLine();
-            Usuario usuario = new Usuario(nome,Email);
-            Carrinho()
-          
+            Usuario usuario = new Usuario(nome, Email);
+            Computador dell = new Computador();
+            VideoGame ps4 = new VideoGame();
+            Celular samsung = new Celular();
+            Carrinho carrinho = new Carrinho(usuario);
+            var lista = new List<Produto>();
+            lista = carrinho.ProdutosSelecionados;
+            Console.WriteLine($"O que deseja comprar?\n");
+            bool opcao3 = true;
+            do
+            {
+                Console.WriteLine($"1- Computador {dell.Marca} \n2- Video Game {ps4.Marca} \n3- Celular {samsung.Marca} ");
+
+                var opcao = Console.ReadLine();
+                switch (opcao)
+                {
+                    case "1":
+                        carrinho.AdicionarNovoProduto(dell);
+                        break;
+                    case "2":
+                        Console.WriteLine("Deseja adicionar jogos? S ou N");
+                        var jogosOpcao = Console.ReadLine();
+                        if (jogosOpcao == "S")
+                        {
+                            Console.WriteLine("Quantos?");
+                            double quantJogos = double.Parse(Console.ReadLine());
+                     
+                         ps4.AdicionarJogos(quantJogos);
+                          carrinho.AdicionarNovoProduto(ps4);
+                        }else if (jogosOpcao == "N")
+                        {
+                            carrinho.AdicionarNovoProduto(ps4);
+                        }
+
+                        else
+                        {
+                            Console.WriteLine("Opção Inválida");
+                        }
+
+                        break;
+                    case "3":
+                        carrinho.AdicionarNovoProduto(samsung);
+                        break;
+                    default:
+                        Console.WriteLine("Opção inválida.");
+                        break;
+                }
+                Console.WriteLine("Deseja adicionar algo a mais? S ou N");
+                var opcao2 = Console.ReadLine();
+                if (opcao2 == "N")
+                {
+                    opcao3 = false;
+                }
+
+                else if (opcao2 == "S")
+                {
+                    opcao3 = true;
+                }
+                else
+                {
+                    Console.WriteLine("Opção inválida");
+                }
+                ps4.ResetarValor();
+            } while (opcao3 == true);
+
+            Console.WriteLine(carrinho.fecharCompra());
             
-
-
 
 
 
